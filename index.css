@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(73, 50, 116);
+    position: relative;
+}
+#app{
+    background-color: white;
+    border-radius: 8px;
+    width: 400px;
+    min-height: 300px;
+    text-align: center;
+    padding: 15px;
+    position: absolute;
+    margin-top:5%;
+    margin-left: 35%;
+}
+#app #todo-title{
+    background-color: greenyellow;
+    padding: 5px 15px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+#app #todo-input{
+    border-radius: 8px;
+    line-height: 26px;
+    height: 26px;
+}
+#app #todo-submit{
+    padding: 8px 10px;
+    border: none;
+    background-color: aqua;
+    border-radius: 8px;
+}
+#app #todo-output{
+    text-align: left;
+}
